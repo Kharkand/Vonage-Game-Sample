@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    width: 960px;
+    height: 600px;
+    border: 5px solid red;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#videos {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#subscriber {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    left: -300px;
+    top: -590px;
+    z-index: 100;
+    border: 3px solid white;
+    border-radius: 1px;
+    transition: left 1s ease-out;
+}
+
+#publisher {
+    position: absolute;
+    width: 122px;
+    height: 81px;
+    left: -200px;
+    top: -590px;
+    z-index: 100;
+    border: 3px solid white;
+    border-radius: 3px;
+    transition: left 1s ease-out;
+}
+
+.slide-in {
+    left: 0px !important;
+}
+
+.publisher-slide-in {
+     left: 270px !important;
+}
+
+.subscriber-slide-in {
+    left: 10px !important;
+}
